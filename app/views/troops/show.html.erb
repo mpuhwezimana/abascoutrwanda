@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @troop.name %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @troop.image %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @troop.address %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @troop.longitude %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @troop.latitude %>
+</p>
+
+<p>
+  <strong>Contacts:</strong>
+  <%= @troop.contacts %>
+</p>
+
+<%= link_to 'Edit', edit_troop_path(@troop) %> |
+<%= link_to 'Back', troops_path %>
